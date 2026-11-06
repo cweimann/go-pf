@@ -1,6 +1,6 @@
 # go-pf
 
-Go library and CLI to control [PF](https://man.freebsd.org/cgi/man.cgi?query=pf&sektion=4) on FreeBSD through `/dev/pf` ioctls.
+Go library and CLI to control [PF](https://man.freebsd.org/cgi/man.cgi?query=pf&sektion=4) on FreeBSD through `/dev/pf` ioctls.  The CLI is mostly to demonstrate usage since you should be able to use pfctl from the command line.
 
 The main goal is table management (list / add / delete addresses) without needing [pftabled](https://github.com/awaw/pftabled). Broader ioctl coverage can grow over time.
 
